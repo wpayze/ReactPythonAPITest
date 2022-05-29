@@ -40,21 +40,21 @@ export default function Register() {
                             <div className="field">
                                 <label className="label">Full Name</label>
                                 <div className="control">
-                                    <input className="input" type="text" ref={nameRef} />
+                                    <input className="input" type="text" ref={nameRef} defaultValue={"John Doe"}/>
                                 </div>
                             </div>
 
                             <div className="field">
                                 <label className="label">Email</label>
                                 <div className="control">
-                                    <input className="input" type="email" ref={emailRef} />
+                                    <input className="input" type="email" ref={emailRef} defaultValue={"test@email.com"}/>
                                 </div>
                             </div>
 
                             <div className="field">
                                 <label className="label">Password</label>
                                 <div className="control">
-                                    <input className="input" type="password" ref={passwordRef}/>
+                                    <input className="input" type="password" ref={passwordRef} defaultValue={"password"}/>
                                 </div>
                             </div>
 
