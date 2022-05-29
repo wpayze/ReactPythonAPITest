@@ -40,7 +40,6 @@ export default function Home() {
                     </tr>
                 </thead>
                 <tbody>
-
                     {
                         authenticated ?
                             advisors.length > 0 ?
@@ -51,9 +50,17 @@ export default function Home() {
                                         <td>{advisor.info}</td>
                                     </tr>
                                 )) :
-                                <h1 className="title">NO DATA</h1>
+                                <tr>
+                                    <td>
+                                        <h1 className="title">NO DATA</h1>
+                                    </td>
+                                </tr>
                             :
-                            <h1 className="title">NOT AUTHORIZED</h1>
+                            <tr>
+                                <td>
+                                    <h1 className="title">NOT AUTHORIZED</h1>
+                                </td>
+                            </tr>
                     }
                 </tbody>
             </table>
