@@ -33,9 +33,11 @@ export default function Home() {
         <div className="container p-4 my-4">
             <table className="table is-fullwidth is-hoverable">
                 <thead>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Info</th>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Info</th>
+                    </tr>
                 </thead>
                 <tbody>
 

@@ -38,14 +38,14 @@ export default function Login() {
                             <div className="field">
                                 <label className="label">Email</label>
                                 <div className="control">
-                                    <input className="input" type="email" ref={emailRef} value="test@email.com"/>
+                                    <input className="input" type="email" ref={emailRef} defaultValue={"test@email.com"}/>
                                 </div>
                             </div>
 
                             <div className="field">
                                 <label className="label">Password</label>
                                 <div className="control">
-                                    <input className="input" type="password" ref={passwordRef} value="password"/>
+                                    <input className="input" type="password" ref={passwordRef} defaultValue={"password"} />
                                 </div>
                             </div>
 
